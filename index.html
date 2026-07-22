@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CLOUDS | Muhammad Sheik Nauman</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{
+background:linear-gradient(135deg,#020617,#0f172a,#1e293b);
+color:#fff;
+min-height:100vh;
+padding:40px 20px;
+}
+.container{max-width:1150px;margin:auto}
+header{
+display:flex;justify-content:space-between;align-items:center;
+flex-wrap:wrap;gap:20px;
+padding:30px;
+border-radius:22px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(18px);
+border:1px solid rgba(255,255,255,.15);
+box-shadow:0 10px 35px rgba(0,0,0,.35);
+margin-bottom:45px;
+}
+.brand-title{
+font-size:2.3rem;
+font-weight:900;
+color:#38bdf8;
+letter-spacing:2px;
+}
+.brand-subtitle{color:#cbd5e1;font-size:.95rem;margin-top:6px}
+.user-meta{text-align:right}
+.user-name{font-size:1.4rem;font-weight:800}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(420px,1fr));
+gap:28px;
+}
+.panel{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(18px);
+border:1px solid rgba(255,255,255,.12);
+border-radius:22px;
+padding:28px;
+transition:.35s;
+position:relative;
+overflow:hidden;
+}
+.panel:before{
+content:"";
+position:absolute;
+top:0;left:0;
+width:100%;height:4px;
+background:#38bdf8;
+}
+.panel:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 45px rgba(56,189,248,.25);
+}
+.tag{
+display:inline-block;
+background:#38bdf8;
+color:#000;
+padding:6px 12px;
+border-radius:20px;
+font-size:.75rem;
+font-weight:800;
+margin-bottom:15px;
+}
+h2{
+margin-bottom:15px;
+font-size:1.3rem;
+}
+p,li{
+color:#e2e8f0;
+line-height:1.8;
+}
+ul{padding-left:20px}
+footer{
+margin-top:50px;
+padding:25px;
+border-radius:18px;
+background:rgba(255,255,255,.06);
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:10px;
+color:#cbd5e1;
+}
+a{color:#38bdf8;text-decoration:none}
+a:hover{text-decoration:underline}
+@media(max-width:700px){
+header{flex-direction:column;align-items:flex-start}
+.user-meta{text-align:left}
+.grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div>
+<div class="brand-title">CLOUDS</div>
+<div class="brand-subtitle">Computer Science & Engineering Student Association</div>
+</div>
+
+<div class="user-meta">
+<div class="user-name">Muhammad Sheik Nauman</div>
+<div class="brand-subtitle">USN: 4SF23CS120</div>
+<div class="brand-subtitle">Sahyadri College of Engineering & Management</div>
+</div>
+</header>
+
+<div class="grid">
+
+<div class="panel">
+<div class="tag">Department</div>
+<h2>Vision Statement</h2>
+<p>To be a premier center for excellence in Computer Science and Engineering education, research and innovation by nurturing ethical professionals capable of solving real-world challenges through technology.</p>
+</div>
+
+<div class="panel">
+<div class="tag">Department</div>
+<h2>Mission Roadmap</h2>
+<ul>
+<li>Deliver quality education using modern teaching methodologies.</li>
+<li>Promote innovation, research and industry collaboration.</li>
+<li>Develop leadership, ethics and lifelong learning among students.</li>
+</ul>
+</div>
+
+<div class="panel">
+<div class="tag">Institution</div>
+<h2>Institutional Vision</h2>
+<p>To become a globally recognized institution by transforming learners into innovative leaders with technical excellence, professional competence and strong human values.</p>
+</div>
+
+<div class="panel">
+<div class="tag">Institution</div>
+<h2>Institutional Mission</h2>
+<ul>
+<li>Provide experiential and outcome-based education.</li>
+<li>Bridge academia and industry through research and entrepreneurship.</li>
+<li>Promote sustainability, ethics and social responsibility.</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+<div>© 2026 CLOUDS • Department of Computer Science & Engineering • Sahyadri College</div>
+<div><a href="https://sahyadri.edu.in" target="_blank">Visit Sahyadri Website →</a></div>
+</footer>
+
+</div>
+</body>
+</html>
