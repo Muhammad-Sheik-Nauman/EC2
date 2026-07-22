@@ -8,7 +8,7 @@ http://13.49.148.150
 
 ## 📸 Website Preview
 
-![CLOUDS Website](images/clouds-homepage.png)
+![CLOUDS Website](clouds-homepage.png)
 
 
 # EC2 Setup with Apache on Linux
